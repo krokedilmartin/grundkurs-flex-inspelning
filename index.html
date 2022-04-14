@@ -7,29 +7,30 @@
     <title>Document</title>
 </head>
 <style>
-    #big-box {
+    #hero-section {
         height: 300px;
         width: 500px;
-        background-color: grey;
+        /* background-color: grey; */
+        background-image: url(thumb16.jpg);
+        background-size: cover;
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    #first-box {
-        height: 100px;
-        width: 100px;
-        background-color: red;
-    }
-    #second-box {
-        height: 100px;
-        width: 100px;
-        background-color: blue;
+
+    #hero-section h1 {
+        color: white;
+        font-size: 65px;
     }
 </style>
 <body>
-    <div id="big-box">
-        <div id="first-box"></div>
+    <div id="hero-section">
+        <h1>Välkommen!</h1>
+        <!-- <div id="first-box"></div> -->
         <!-- <div id="second-box"></div> -->
     </div>
 </body>
 </html>
+
+<!-- https://scrimba.com/learn/flexbox
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/ -->
